@@ -7,9 +7,42 @@ html {
 }
 
 body {
-  @apply min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 font-sans text-slate-900;
+  @apply min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 font-sans text-slate-900 antialiased;
 }
 
 * {
   @apply box-border;
+}
+
+@media print {
+  @page {
+    margin: 0.5in;
+  }
+
+  body {
+    background: white !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .resume-card {
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .resume-card header {
+    border-radius: 0 !important;
+    padding: 24px !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .resume-card section {
+    break-inside: avoid;
+  }
 }
