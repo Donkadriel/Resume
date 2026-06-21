@@ -97,6 +97,10 @@ const data = {
   ],
   certifications: [
     {
+      title: 'Septa',
+      items: ['HTML', 'CSS', 'JavaScript', 'Software Development (Front End Development)']
+    },
+    {
       title: 'TryHackMe Learning Path',
       items: ['Linux Fundamentals', 'Metasploit', 'Burp Suite']
     },
