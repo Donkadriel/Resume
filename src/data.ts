@@ -20,9 +20,9 @@ const data = {
     }
   ],
   technicalSkills: [
-    { category: 'Security', skills: ['Linux', 'Bash & Python scripting', 'Penetration testing (Nmap, Metasploit, Burp, Nessus)', 'Ethical Hacking & Vulnerability Assessment', 'Operating system virtualization', 'DNS configuration'] },
-    { category: 'Web Development', skills: ['HTML, CSS, JavaScript', 'React & TypeScript', 'Tailwind CSS', 'Node.js'] },
-    { category: 'Cloud & DevOps', skills: ['Docker', 'AWS basics', 'Git & CI/CD'] }
+    { category: 'Security', skills: ['Python', 'Bash', 'Penetration Testing (Metasploit, Nmap, Nessus, Burp Suite)', 'Vulnerability Assessment', 'Network Security', 'Ethical Hacking', 'DNS Configuration', 'OS Virtualization', 'Linux'] },
+    { category: 'Web Development', skills: ['JavaScript (ES6+)', 'TypeScript', 'React', 'HTML5', 'CSS3', 'Tailwind CSS', 'Node.js', 'Express.js', 'Responsive Web Design', 'Git & GitHub'] },
+    { category: 'Cloud, DevOps & Testing', skills: ['Docker', 'Microsoft Azure Fundamentals', 'PostgreSQL', 'Git & CI/CD', 'Manual Testing', 'Test Case Design', 'Bug Reporting'] }
   ],
   experience: [
     {
@@ -31,7 +31,7 @@ const data = {
       period: '2025 - Present',
       details: [
         'Conducting software testing and quality assurance to ensure product reliability.',
-        'Working with cloud engineering tools and platforms.',
+        'Working with cloud engineering tools and Microsoft Azure.',
         'Collaborating with development teams to improve software deliverables.'
       ]
     },
